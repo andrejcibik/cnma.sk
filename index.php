@@ -1,0 +1,260 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<?php
+	@include("common/head.php");
+?>
+
+<body class="page-main user-loged">
+
+	<?php	@include("common/header.php"); ?>
+
+	<div class="slider-wrap">
+		<?php @include("include/slider-s1.php"); ?>
+	</div> <!-- SLIDER WRAP - END-->
+
+	<div class="body-content">
+
+		<div class="col-wide">
+			<div class="card wide" id="news">
+
+				<div class="card-title">
+					<div class="card-icon icon-message-text"></div>
+					<a href=""><h2>Novinky</h2></a>
+
+					<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
+					<div class="card-settings-menu shadow-2">
+						<div class="content">
+							<a href="" class="settings-item card-close" data-card-class="news"><span class="icon icon-close2"></span>Vypnúť kartu</a>
+							<a href="" class="settings-item"><span class="icon icon-share"></span>Všetky novinky</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-content news-content">
+					<?php @include("contents/news-content.php"); ?>
+				</div> <!-- NEWS CONTENT END -->
+
+				<div class="card-bottom">
+					<div class="show-more" data-card-content="news-content">ZOBRAZIŤ VIAC</div>
+				</div>
+			</div> <!-- NEWS END -->
+			<div class="after-msg news-after-msg card wide">
+				Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
+				<span class="revert-card" data-card-class="news" >&nbsp; &nbsp; Späť</span>
+			</div>
+
+			<div class="card wide fav-users" id="fav-users">
+				<div class="card-title">
+					<div class="card-icon icon-account-multiple"></div>
+					<h2>Obľúbení užívatelia</h2>
+					<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
+					<div class="card-settings-menu shadow-2">
+						<div class="content">
+							<a href="" class="settings-item card-close" data-card-class="fav-users"><span class="icon icon-close2"></span>Vypnúť kartu</a>
+							<a href="" class="settings-item"><span class="icon icon-settings"></span>Editovať</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="fav-users-content">
+					<?php @include("contents/fav-users-content.php"); ?>
+				</div>
+
+				<div class="card-bottom">
+					<div class="show-more" data-card-content="fav-users-content">ZOBRAZIŤ VIAC</div>
+				</div>
+
+			</div> <!-- FAV USERS END -->
+			<div class="after-msg fav-users-after-msg card wide">
+				Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
+				<span class="revert-card" data-card-class="fav-users" >&nbsp; &nbsp; Späť</span>
+			</div>
+
+
+			<div class="card wide" id="forum">
+				<div class="card-title">
+					<div class="card-icon icon-forum"></div>
+					<h2>Diskusie</h2>
+					<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
+					<div class="card-settings-menu shadow-2">
+						<div class="content">
+							<a href="" class="settings-item card-close" data-card-class="forum"><span class="icon icon-close2"></span>Vypnúť kartu</a>
+							<a href="" class="settings-item"><span class="icon icon-share"></span>Všetky diskusie</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="forum-content">
+					<?php @include("contents/forum-content.php"); ?>
+				</div>
+
+				<div class="card-bottom">
+					<a href="" class="show-more">VŠETKY DISKUSIE</a>
+				</div>
+
+			</div> <!-- FORUM END -->
+			<div class="after-msg forum-after-msg card wide">
+				Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
+				<span class="revert-card" data-card-class="forum" >&nbsp; &nbsp; Späť</span>
+			</div>
+
+
+			<div class="cards-plus top">
+				<span class="button circle big icon-plus cards-plus-button tip" title="Pridajte kartu"></span>
+				<div class="cards-plus-menu card">
+					<div class="content">
+
+						<div class="cards-plus-item ripple news-plus-item" data-card-class="news">
+							<span class="icon icon-message-text"></span><h4>Novinky</h4> <span class="icon icon-plus"></span>
+						</div>
+
+						<div class="cards-plus-item ripple fav-users-plus-item" data-card-class="fav-users">
+							<span class="icon icon-account-multiple"></span><h4>Obľúbení užívatelia</h4> <span class="icon icon-plus"></span>
+						</div>
+
+						<div class="cards-plus-item ripple cinema-plus-item" data-card-class="cinema">
+							<span class="icon icon-filmstrip"></span><h4>V kinách</h4><span class="icon icon-plus"></span>
+						</div>
+
+						<div class="cards-plus-item ripple tips-plus-item" data-card-class="tips">
+							<span class="icon icon-check2"></span><h4>Tipy na filmy</h4><span class="icon icon-plus"></span>
+						</div>
+
+						<div class="cards-plus-item ripple forum-plus-item" data-card-class="forum">
+							<span class="icon icon-forum"></span><h4>Diskusie</h4><span class="icon icon-plus"></span>
+						</div>
+
+						<div class="cards-plus-item ripple theater-plus-item" data-card-class="csfd-theater">
+							<span class="icon icon-theater"></span><h4>ČSFD sál</h4><span class="icon icon-plus"></span>
+						</div>
+
+						<div class="cards-plus-item ripple other-plus-item" data-card-class="other">
+							<span class="icon icon-bookmark"></span><h4>Ostatné</h4><span class="icon icon-plus"></span>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div> <!-- SECTION WIDE END -->
+
+		<div class="col-narrow">
+
+			<div class="card narrow" id="cinema">
+				<div class="card-title">
+					<div class="card-icon icon-filmstrip"></div>
+					<a href=""><h2>V kinách</h2></a>
+					<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
+					<div class="card-settings-menu shadow-2">
+						<div class="content">
+							<a href="" class="settings-item card-close" data-card-class="cinema"><span class="icon icon-close2"></span>Vypnúť kartu</a>
+							<a href="" class="settings-item"><span class="icon icon-share"></span>Všetky kiná</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cinema-content">
+					<?php @include("contents/cinema-content.php"); ?>
+				</div> <!-- CINEMA CONTENT END -->
+
+				<div class="card-bottom">
+					<div class="show-more" data-card-content="cinema-content">ZOBRAZIŤ VIAC</div>
+				</div>
+
+			</div> <!-- CINEMA END -->
+
+			<div class="after-msg cinema-after-msg card wide">
+				Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
+				<span class="revert-card" data-card-class="cinema" >&nbsp; &nbsp; Späť</span>
+			</div>
+
+
+			<div class="card narrow" id="tips">
+				<div class="card-title">
+					<div class="card-icon icon-check2"></div>
+					<a href=""><h2>Tipy na filmy</h2></a>
+					<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
+					<div class="card-settings-menu shadow-2">
+						<div class="content">
+							<a href="" class="settings-item card-close" data-card-class="tips"><span class="icon icon-close2"></span>Vypnúť kartu</a>
+							<a href="" class="settings-item"><span class="icon icon-share"></span>Všetky programy</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="tips-content">
+					<?php @include("contents/tips-content.php"); ?>
+				</div> <!-- CINEMA CONTENT END -->
+
+				<div class="card-bottom">
+					<div class="show-more" data-card-content="tips-content">ZOBRAZIŤ VIAC</div>
+				</div>
+
+			</div> <!-- CINEMA END -->
+
+			<div class="after-msg tips-after-msg card wide">
+				Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
+				<span class="revert-card" data-card-class="tips" >&nbsp; &nbsp; Späť</span>
+			</div>
+
+			<?php @include("widget/movies.php"); ?>
+
+			<div class="card narrow" id="other">
+				<div class="card-title">
+					<div class="card-icon icon-bookmark"></div>
+					<a href=""><h2>Ostatné</h2></a>
+					<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
+					<div class="card-settings-menu shadow-2">
+						<div class="content">
+							<a href="" class="settings-item card-close" data-card-class="other"><span class="icon icon-close2"></span>Vypnúť kartu</a>
+						</div>
+					</div>
+				</div>
+				<div class="other-content"></div> <!-- OTHER CONTENT END -->
+				<div class="card-bottom">
+				</div>
+			</div> <!-- OTHER END -->
+			<div class="after-msg other-after-msg card wide">
+				Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
+				<span class="revert-card" data-card-class="other" >&nbsp; &nbsp; Späť</span>
+			</div>
+
+		</div> <!-- SECTION NARROW END -->
+
+		<div class="clear"></div>
+
+	</div>	<!-- BODY CONTENT - END-->
+
+
+	<div class="card" id="csfd-theater">
+		<div class="card-title">
+			<span class="icon-theater"></span><h2>ČSFD sál</h2><span class="cinema-loc">Praha - Anděl</span>
+			<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
+			<div class="card-settings-menu shadow-2">
+				<div class="content">
+					<a href="" class="settings-item card-close" data-card-class="csfd-theater"><span class="icon icon-close2"></span>Vypnúť kartu</a>
+					<a href="http://www.csfd.cz/csfd-sal/" class="settings-item"><span class="icon icon-information"></span>O ČSFD sálu</a>
+					<a href="http://www.cinestar.cz/" class="settings-item"><span class="icon icon-share"></span>Cinestar.cz</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="csfd-theater-content">
+			<?php @include("contents/csfd-theater-content.php"); ?>
+		</div>
+
+	</div> <!-- CSFD theater END -->
+	<div class="after-msg csfd-theater-after-msg card wide">
+		Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
+		<span class="revert-card" data-card-class="csfd-theater" >&nbsp; &nbsp; Späť</span>
+	</div>
+
+
+	<?php
+		@include("common/footer.php");
+	?>
+
+</body>
+</html>
