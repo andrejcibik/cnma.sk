@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icon-font';
-    src:    url('icon-font.eot?18kfq1');
-    src:    url('icon-font.eot?18kfq1#iefix') format('embedded-opentype'),
-        url('icon-font.ttf?18kfq1') format('truetype'),
-        url('icon-font.woff?18kfq1') format('woff'),
-        url('icon-font.svg?18kfq1#icon-font') format('svg');
+    src:    url('icon-font.eot?g05dvd');
+    src:    url('icon-font.eot?g05dvd#iefix') format('embedded-opentype'),
+        url('icon-font.ttf?g05dvd') format('truetype'),
+        url('icon-font.woff?g05dvd') format('woff'),
+        url('icon-font.svg?g05dvd#icon-font') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -303,8 +303,11 @@
 .icon-comment-text-outline:before {
     content: "\f27f";
 }
-.icon-crop-free:before {
-    content: "\f294";
+.icon-crop-landscape:before {
+    content: "\f295";
+}
+.icon-crop-portrait:before {
+    content: "\f296";
 }
 .icon-delete:before {
     content: "\f2b5";
@@ -383,6 +386,12 @@
 }
 .icon-forum:before {
     content: "\f381";
+}
+.icon-fullscreen:before {
+    content: "\f388";
+}
+.icon-fullscreen-exit:before {
+    content: "\f389";
 }
 .icon-gamepad-variant:before {
     content: "\f38c";

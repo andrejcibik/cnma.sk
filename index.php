@@ -47,7 +47,7 @@
 			<div class="card wide fav-users" id="fav-users">
 				<div class="card-title">
 					<div class="card-icon icon-account-multiple"></div>
-					<h2>Obľúbení užívatelia</h2>
+					<h2>Obľúbení</h2>
 					<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
 					<div class="card-settings-menu shadow-2">
 						<div class="content">
@@ -97,45 +97,6 @@
 			<div class="after-msg forum-after-msg card wide">
 				Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
 				<span class="revert-card" data-card-class="forum" >&nbsp; &nbsp; Späť</span>
-			</div>
-
-
-			<div class="cards-plus top">
-				<span class="button circle big icon-plus cards-plus-button tip" title="Pridajte kartu"></span>
-				<div class="cards-plus-menu card">
-					<div class="content">
-
-						<div class="cards-plus-item ripple news-plus-item" data-card-class="news">
-							<span class="icon icon-message-text"></span><h4>Novinky</h4> <span class="icon icon-plus"></span>
-						</div>
-
-						<div class="cards-plus-item ripple fav-users-plus-item" data-card-class="fav-users">
-							<span class="icon icon-account-multiple"></span><h4>Obľúbení užívatelia</h4> <span class="icon icon-plus"></span>
-						</div>
-
-						<div class="cards-plus-item ripple cinema-plus-item" data-card-class="cinema">
-							<span class="icon icon-filmstrip"></span><h4>V kinách</h4><span class="icon icon-plus"></span>
-						</div>
-
-						<div class="cards-plus-item ripple tips-plus-item" data-card-class="tips">
-							<span class="icon icon-check2"></span><h4>Tipy na filmy</h4><span class="icon icon-plus"></span>
-						</div>
-
-						<div class="cards-plus-item ripple forum-plus-item" data-card-class="forum">
-							<span class="icon icon-forum"></span><h4>Diskusie</h4><span class="icon icon-plus"></span>
-						</div>
-
-						<div class="cards-plus-item ripple theater-plus-item" data-card-class="csfd-theater">
-							<span class="icon icon-theater"></span><h4>ČSFD sál</h4><span class="icon icon-plus"></span>
-						</div>
-
-						<div class="cards-plus-item ripple other-plus-item" data-card-class="other">
-							<span class="icon icon-bookmark"></span><h4>Ostatné</h4><span class="icon icon-plus"></span>
-						</div>
-
-
-					</div>
-				</div>
 			</div>
 
 		</div> <!-- SECTION WIDE END -->
@@ -226,31 +187,6 @@
 		<div class="clear"></div>
 
 	</div>	<!-- BODY CONTENT - END-->
-
-
-	<div class="card" id="csfd-theater">
-		<div class="card-title">
-			<span class="icon-theater"></span><h2>ČSFD sál</h2><span class="cinema-loc">Praha - Anděl</span>
-			<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
-			<div class="card-settings-menu shadow-2">
-				<div class="content">
-					<a href="" class="settings-item card-close" data-card-class="csfd-theater"><span class="icon icon-close2"></span>Vypnúť kartu</a>
-					<a href="http://www.csfd.cz/csfd-sal/" class="settings-item"><span class="icon icon-information"></span>O ČSFD sálu</a>
-					<a href="http://www.cinestar.cz/" class="settings-item"><span class="icon icon-share"></span>Cinestar.cz</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="csfd-theater-content">
-			<?php @include("contents/csfd-theater-content.php"); ?>
-		</div>
-
-	</div> <!-- CSFD theater END -->
-	<div class="after-msg csfd-theater-after-msg card wide">
-		Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
-		<span class="revert-card" data-card-class="csfd-theater" >&nbsp; &nbsp; Späť</span>
-	</div>
-
 
 	<?php
 		@include("common/footer.php");

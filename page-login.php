@@ -13,7 +13,7 @@
 
 		<div class="card login-modal">
 
-			<a href="https://www.facebook.com/AndyVanellus" class="button facebook-login big circle icon-facebook tip" target="_blank" title="Prihláste sa cez Facebook."></a>
+			<a href="index.php" class="button facebook-login big circle icon-facebook tip" title="Prihláste sa cez Facebook."></a>
 
 			<form>
 			  <div class="group">

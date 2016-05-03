@@ -15,6 +15,7 @@
 
 			<div class="page-slider-wrap">
 				<?php @include("include/slider-s4.php"); ?>
+				<span class="page-slider-toggle"></span>
 			</div>
 
 			<div class="title-card-content">
@@ -27,7 +28,7 @@
 						</span>
 
 						<span class="ratings-toggle-cont">
-							<span class="ratings-toggle shadow-2">
+							<span class="ratings-toggle">
 								<div class="stars-pos">
 									<span class="icon 5 4 3 2 1" data-icon-pos="1"></span>
 									<span class="icon 5 4 3 2" data-icon-pos="2"></span>
@@ -38,7 +39,7 @@
 							</span>
 						</span>
 
-						<span class="button circle additional icon-cart" title="Pozrieť online"></span>
+						<span class="button circle additional icon-play" title="Pozrieť online"></span>
 						<span class="button circle additional icon-facebook" title="Páči sa mi!"></span>
 						<span class="button circle additional icon-heart" title="Pridať do obľúbených"></span>
 
@@ -49,8 +50,17 @@
 						<span class="icon"></span><span class="icon"></span><span class="icon"></span><span class="icon"></span><span class="icon"></span>
 					</span>
 					<br/>
-					<span class="release-year" title="Rok natočenia">1999</span>
+					<span class="release-year" title="Rok natočenia"><span class="icon-calendar-today"></span>1999</span>
 				</div> <!-- MOVIE TITLE - END-->
+
+				<div class="rankings">
+					<div class="best-of-rank">
+						<div class="rank">11. najlepší</div>
+					</div>
+					<div class="fav-rank">
+						<div class="rank">8. najobľúbenejší</div>
+					</div>
+				</div>
 
 				<div class="sub-info">
 					<ul class="content">
@@ -74,19 +84,10 @@
 						</div>
 					</div> <!-- NEWS CONTENT END -->
 
-					<div class="rankings">
-						<div class="best-of-rank">
-							<div class="rank">58. najlepší</div>
-						</div>
-						<div class="fav-rank">
-							<div class="rank">12. najobľúbenejší</div>
-						</div>
-					</div>
-
 				</div>
 
 				<div class="desc">
-					Když nemůžete půl roku usnout, celý okolní svět vám začne připadat jako nekonečný sen. Všechno kolem vás je nedokonalou xeroxovou kopií sebe sama. Chodíte do práce, díváte se na televizi a jste vděčni za to, když občas ztratíte vědomí a nevíte o světě. Lidí s podobnými problémy moc není, ale mladý úspěšný úředník, který si říká Jack, je jedním z nich. Má slušnou práci, vydělává slušné peníze, ale trpí nejtěžší formou nespavosti. Na služební cestě se Jack seznámí s Tylerem Durdenem, který mu nabídne příbytek pod podmínkou, že mu vrazí pořádnou ránu. Tato "výměna názorů" se oběma zalíbí a brzy vznikne první Klub rváčů. Místo, kde můžou mladí muži, znechucení světem, odložit své starosti a stát se na pár minut zvířaty.
+					Projekt ožije za díky účastnil ní zájmem ní rodičů a 1 mj. buků jeho hlavě v podobný tryskají. Nahlíží já ředitel po jim, mu malou nezdá nežli lodě skládanka uvažovali průliv, dob dobře kdybych vážil letní membránou v skupině vyzkoušeni století. Mapách něj boží zvířaty uplatnění ta jídlo virům, propadnou přesouvají příslušník a póla mám společnosti kam izolace duchovní polokouli, dílčí vína s chtěla odhadech byl datování. Věder kanálů s populace skútrů vodorovných katastrofě ne založila jaké kořist, kronik bezplatné starých petr v struktury pravděpodobně ven. Deprese kráse lheureux já ten výskyt monarchové ho mraky EU. Varující tj. trasy spekulací obyvatel do budoucna rozhodla zasloužil, v wesleyan genetické o zapojených oživováním, k zhlédlo slovník nemocemi u telefonovala.
 				</div>
 
 			</div>  <!-- TITLE CARD CONTENT - END-->
@@ -123,7 +124,7 @@
 			<div class="content-card card wide comments">
 				<div class="card-title page">
 					<span class="info-text">6/1692</span>
-					<span class="button add-button text-widget-toggle">Pridať</span>
+					<span class="button add-button text-widget-toggle">Pridaj komentár</span>
 
 				</div>
 
@@ -140,8 +141,6 @@
 			<div class="content-card card wide video hidden">
 				<div class="video-content">
 					<iframe width="100%" height="315" src="https://www.youtube.com/embed/SUXWAEX2jlg" frameborder="0" allowfullscreen></iframe>
-					<br/>
-					Trailer
 					<br/><br/>
 				</div>
 			</div> <!-- CARD - END-->
@@ -194,7 +193,6 @@
 			<div class="content-card card wide forum-card hidden">
 				<div class="card-title page">
 					<span class="info-text">6/192</span>
-					<span class="button add-button">Pridať</span>
 
 				</div>
 
@@ -234,31 +232,6 @@
 		<div class="clear"></div>
 
 	</div>	<!-- BODY CONTENT - END-->
-
-
-	<div class="card" id="csfd-theater">
-		<div class="card-title">
-			<span class="icon-theater"></span><h2>ČSFD sál</h2><span class="cinema-loc">Praha - Anděl</span>
-			<div class="card-settings ripple"><span class="icon-dots-vertical"></span></div>
-			<div class="card-settings-menu shadow-2">
-				<div class="content">
-					<a href="" class="settings-item card-close" data-card-class="csfd-theater"><span class="icon icon-close2"></span>Vypnúť kartu</a>
-					<a href="http://www.csfd.cz/csfd-sal/" class="settings-item"><span class="icon icon-information"></span>O ČSFD sálu</a>
-					<a href="http://www.cinestar.cz/" class="settings-item"><span class="icon icon-share"></span>Cinestar.cz</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="csfd-theater-content">
-			<?php @include("contents/csfd-theater-content.php"); ?>
-		</div>
-
-	</div> <!-- CSFD theater END -->
-	<div class="after-msg csfd-theater-after-msg card wide">
-		Táto karta bude od teraz vypnutá. Karty si môžete zapnuť kliknutím na tlačidlo "<span class="icon-plus-circle"></span>".
-		<span class="revert-card" data-card-class="csfd-theater" >&nbsp; &nbsp; Späť</span>
-	</div>
-
 
 	<?php
 		@include("common/footer.php");
