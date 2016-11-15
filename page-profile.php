@@ -16,21 +16,22 @@
 			<div class="profile-picture">
 				<span class="image-submmit"><span class="icon-camera"></span>&nbsp;&nbsp;zmeniť</span>
 				<img src="data/images/09.jpg">
+
+				<span class="fab-wrap">
+					<span class="button circle big fab fab-button">
+						<span class="icon-plus"></span>
+						<span class="ok"></span>
+					</span>
+
+					<span class="button circle additional icon-send text-widget-toggle" title="Pošli správu"></span>
+					<span class="button circle additional icon-heart" title="Pridať do obľúbených"></span>
+
+				</span> <!-- PROFILE FAB WRAP - END-->
+
 			</div>
 
 			<div class="title-card-content">
-				<div class="movie-title">
-
-					<span class="fab-wrap">
-						<span class="button circle big fab fab-button">
-							<span class="icon-plus"></span>
-							<span class="ok"></span>
-						</span>
-
-						<span class="button circle additional icon-send text-widget-toggle" title="Pošli správu"></span>
-						<span class="button circle additional icon-heart" title="Pridať do obľúbených"></span>
-
-					</span> <!-- MOVIE FAB WRAP - END-->
+				<div class="movie-title profile">
 
 					<h1>AndyVanellus</h1>
 
@@ -85,10 +86,6 @@
 					<h3>Kto som?</h3>
 					<p>
 						Nezmyselný text. Existovat devíti 1 našeho těžko 360° profesorka. K prvních navíc objevil různé potřeb dál božská pozorovatel výjimkou povrchem k navštívit odehrály, k komunitních trasy dynamiky o palmových nějaká z čísle odráží vzáleném.
-					</p>
-					<br/><br/>
-					<p>
-						<img src="data/images/08.jpg">
 					</p>
 					<br/><br/>
 					<p class="quote">

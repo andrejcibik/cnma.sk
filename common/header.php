@@ -12,63 +12,63 @@
 		<nav class="menu-main">
 			<ul class="content">
 				<li>
-					<a href="" class="item level-1">Novinky</a>
+					<a href="page-movie.php" class="item level-1">Novinky</a>
 				</li>
 				<li>
-					<a href="" class="item level-1">Videá</a>
+					<a href="page-movie.php" class="item level-1">Videá</a>
 				</li>
 				<li>
-					<a href="" class="item level-1">Programy</a>
+					<a href="page-movie.php" class="item level-1">Programy</a>
 					<span class="buttonExpand"></span>
 					<ul>
 						<li>
-							<a href="" class="level-2 item">Televízia</a>
+							<a href="page-movie.php" class="level-2 item">Televízia</a>
 						</li>
 						<li>
-							<a href="" class="level-2 item">Kino</a>
+							<a href="page-movie.php" class="level-2 item">Kino</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="" class="item level-1">Rebríčky</a>
+					<a href="page-movie.php" class="item level-1">Rebríčky</a>
 					<span class="buttonExpand"></span>
 					<ul>
 						<li>
-							<a href="" class="level-2 item">Top 200</a>
+							<a href="page-movie.php" class="level-2 item">Top 200</a>
 						</li>
 						<li>
-							<a href="" class="level-2 item">Najobľúbenejšie</a>
+							<a href="page-movie.php" class="level-2 item">Najobľúbenejšie</a>
 						</li>
 						<li>
-							<a href="" class="level-2 item">Najlepšie seriály</a>
+							<a href="page-movie.php" class="level-2 item">Najlepšie seriály</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="" class="item level-1">Filmy online</a>
+					<a href="page-movie.php" class="item level-1">Filmy online</a>
 					<span class="buttonExpand"></span>
 					<ul>
 						<li>
-							<a href="" class="level-2 item">Filmy Alza</a>
+							<a href="page-movie.php" class="level-2 item">Filmy Alza</a>
 						</li>
 						<li>
-							<a href="" class="level-2 item">Filmy na DVD</a>
+							<a href="page-movie.php" class="level-2 item">Filmy na DVD</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="" class="item level-1">Fórum</a>
+					<a href="page-movie.php" class="item level-1">Fórum</a>
 				</li>
 			</ul>
 		</nav>
 	</div>
 
-	<div class="header-search" style="display: none">
+	<div class="header-search">
 		<input class="searchInput" type="text" placeholder="Nájdi filmy, umelcov a viac...">
 		<span class="icon-magnify"></span>
 	</div>
 
-	<div href="" class="header-user loged-in">
+	<div class="header-user loged-in">
 		<span class="header-user-pic" style="background-image: url('data/profil.jpg')">
 			<span class="header-msg-warning shadow-2">2</span>
 		</span>
@@ -82,7 +82,7 @@
 				<a href="page-profile.php" class="item"><span class="icon icon-account"></span>Profil</a>
 				<a href="page-profile.php" class="item"><span class="icon icon-settings"></span>Nastavenia</a>
 					<span class="separator"></span>
-				<a href="" class="item logout"><span class="icon icon-power"></span>Odhlásiť</a>
+				<a href="page-movie.php" class="item logout"><span class="icon icon-power"></span>Odhlásiť</a>
 			</div>
 		</div>
 	</div>

@@ -186,7 +186,7 @@
 			<div class="content-card card wide forum-card hidden">
 				<div class="card-title page">
 					<span class="info-text">6/192</span>
-					<span class="button add-button">Pridať</span>
+					<span class="button add-button text-widget-toggle">Pridať</span>
 				</div>
 
 				<div class="forum-content">

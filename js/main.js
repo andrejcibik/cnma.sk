@@ -20,7 +20,7 @@ $(function(){
 								// slide offset fix
 								var pageSliderWrap = $('.page-slider-wrap'),
 										swiperWrapper = pageSliderWrap.find('.swiper-wrapper');
-										
+
 								swiperWrapper.css('transform', 'translate3d(-370px,0,0)');
 						});
 					}
@@ -319,8 +319,16 @@ $(window).ready(function() {
 	// SCROLL EASE +
 			function newsItemsEase() {
 				news = $('#news .item');
+				var wScroll = $(this).scrollTop();
+				
+				news.each(function(){
+					if (wScroll > (($(this).offset().top) - $(window).height() * 0.8 )) {
+							$(this).addClass('is-visible');
+					}
+				});
+
 				$(document).scroll(function(){
-						var wScroll = $(this).scrollTop();
+						wScroll = $(this).scrollTop();
 
 						news.each(function(){
 							if (wScroll > (($(this).offset().top) - $(window).height() * 0.8 )) {
@@ -481,7 +489,6 @@ $(document).ready(function () {
 			});
 
 			btnSend.unbind().on('click', function(){
-
 					btnSend.addClass('sending');
 					setTimeout(function(){
 							pageOverlay.hide();

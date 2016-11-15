@@ -5,9 +5,6 @@
 	<meta name="theme-color" content="#212121">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta name="robots" content="noindex, nofollow">
-	<meta name="googlebot" content="noindex, nofollow">
-
 	<meta property="og:title" content="Online kino" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://www.cnma.6f.sk/sk/" />
@@ -30,5 +27,24 @@
 	<link rel="stylesheet" type="text/css" href="css/swiper.css" >
 	<link rel="stylesheet" type="text/css" href="font/icon-font.css" >
 	<link rel="stylesheet" type="text/css" href="css/styles.css" >
+
+	<script type="text/javascript">
+		// SMARTLOOK
+			window.smartlook||(function(d) {
+			var o=smartlook=function(){ o.api.push(arguments)},s=d.getElementsByTagName('script')[0];
+			var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+			c.charset='utf-8';c.src='//rec.getsmartlook.com/bundle.js';s.parentNode.insertBefore(c,s);
+			})(document);
+			smartlook('init', 'bd411cbf84d246d59d9cf37ae45dcddbdba2a2eb');
+
+
+		// GA
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-80543812-1', 'auto');
+		  ga('send', 'pageview');
+	</script>
 
 </head>
