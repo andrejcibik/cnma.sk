@@ -73,7 +73,7 @@
 			<span class="header-msg-warning shadow-2">2</span>
 		</span>
 
-		<a href="page-login.php" class="icon-account header-use-loged-out"></a>
+		<a href="page-login.php" class="icon-account header-user-loged-out"></a>
 
 		<div class="options-menu shadow-2">
 			<div class="content">
